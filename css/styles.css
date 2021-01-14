@@ -1,0 +1,17 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* Header */
+.navigation a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
