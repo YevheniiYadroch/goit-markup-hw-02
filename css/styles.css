@@ -37,6 +37,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.navigation .current {
+  color: var(--accent-color);
+}
+
 /* Hero */
 
 .hero {
@@ -65,7 +69,7 @@ body {
   text-decoration: none;
 }
 
-/* Main */
+/* Main index.html */
 
 .advantages h3 {
   color: var(--primary-text-color);
@@ -138,4 +142,46 @@ body {
   color: rgba(255, 255, 255, 0.6);
 
   text-decoration: none;
+}
+
+/* Main portfolio.html */
+
+.filters button {
+  background-color: var(--secondary-background);
+  color: var(--primary-text-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.filters button:hover,
+.filters button:focus,
+.filters button:active {
+  background-color: var(--accent-color);
+  color: var(--secondary-accent-color);
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.portfolio h1 {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio p {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
